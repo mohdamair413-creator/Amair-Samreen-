@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Samreen Asra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loader-card">
+      <div class="loader-ring"></div>
+      <div class="loader-ring"></div>
+      <div class="loader-ring"></div>
+      <p>Loading your romantic celebration...</p>
+    </div>
+  </div>
+
+  <div class="page">
+    <div id="sparkleLayer"></div>
+    <div id="effectLayer"></div>
+
+    <header class="landing fullscreen">
+      <div class="hero-panel glass-panel">
+        <div class="title-badge">For My Beloved Wife</div>
+        <h1 class="animated-title">Happy Birthday<br>Samreen Asra</h1>
+        <p class="hero-copy">A luxurious love story in pink, gold, and glass. Today is your day, my heart.</p>
+        <div class="hero-actions">
+          <button id="enterBtn" class="primary-button">Open My Heart</button>
+          <button id="musicToggle" class="secondary-button">Play Music</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="gallery" class="section glass-panel reveal-card">
+        <div class="section-header">
+          <span>01</span>
+          <h2>Photo Gallery</h2>
+        </div>
+        <p class="section-copy">A slideshow of our sweetest moments, wrapped in romance and shimmering gold.</p>
+        <div class="carousel">
+          <button class="carousel-btn prev" aria-label="Previous photo">‹</button>
+          <div class="slides">
+            <div class="slide active"><img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80" alt="Romantic couple"></div>
+            <div class="slide"><img src="https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=900&q=80" alt="Wedding embrace"></div>
+            <div class="slide"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Evening celebration"></div>
+          </div>
+          <button class="carousel-btn next" aria-label="Next photo">›</button>
+        </div>
+      </section>
+
+      <section id="letter" class="section glass-panel reveal-card">
+        <div class="section-header">
+          <span>02</span>
+          <h2>My Love Letter</h2>
+        </div>
+        <div class="two-column">
+          <div class="letter-card">
+            <p>My dearest Samreen Asra, each sunrise with you becomes a blessing. May Allah grant you endless joy, health, and the sweetest dreams. Your smile lights every room and your love makes my soul soar. Happy Birthday, my beloved wife.</p>
+            <p>Forever yours, Mohammed Amair ❤️</p>
+          </div>
+          <div class="letter-details">
+            <div class="love-note">
+              <p>To the queen of my heart, thank you for every laughter, every prayer, and every unforgettable memory.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="dua" class="section glass-panel reveal-card">
+        <div class="section-header">
+          <span>03</span>
+          <h2>Islamic Birthday Dua</h2>
+        </div>
+        <div class="dua-grid">
+          <div class="dua-card">
+            <h3>Dua for Blessings</h3>
+            <p>رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ</p>
+            <span>“Our Lord, give us in this world good and in the Hereafter good, and protect us from the punishment of the Fire.”</span>
+          </div>
+          <div class="dua-card">
+            <h3>Dua for Health</h3>
+            <p>اللهم اشفها شفاءً لا يغادر سقماً</p>
+            <span>“O Allah, grant her healing that leaves no sickness behind.”</span>
+          </div>
+          <div class="dua-card">
+            <h3>Dua for Love</h3>
+            <p>رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ</p>
+            <span>“Our Lord, grant us from among our wives and offspring comfort to our eyes.”</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="cake" class="section glass-panel reveal-card">
+        <div class="section-header">
+          <span>04</span>
+          <h2>3D Birthday Cake</h2>
+        </div>
+        <div class="cake-scene">
+          <div class="cake-display" id="cakeDisplay">
+            <div class="cake-layer layer-bottom"></div>
+            <div class="cake-layer layer-middle"></div>
+            <div class="cake-layer layer-top"></div>
+            <div class="icing"></div>
+            <div class="candles">
+              <div class="candle"><span></span></div>
+              <div class="candle"><span></span></div>
+              <div class="candle"><span></span></div>
+              <div class="candle"><span></span></div>
+            </div>
+          </div>
+          <button id="cakeButton" class="primary-button">Light the Cake</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer glass-panel">
+      <p>Forever Yours, Mohammed Amair ❤️</p>
+    </footer>
+
+    <audio id="bgMusic" loop preload="auto">
+      <source src="birthday.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
